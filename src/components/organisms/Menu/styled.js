@@ -1,11 +1,11 @@
-import styled from "styled-components";
-import COLORS from "../../../constants/colors";
+import styled from 'styled-components';
+import COLORS from '../../../constants/colors';
 
 export const Title = styled.h1`
   color: ${COLORS.secondaryBlue};
 `;
 
-export const Container = styled.div`
+export const Container = styled.header`
   display: flex;
   justify-content: space-around;
   align-items: center;

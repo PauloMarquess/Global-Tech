@@ -1,10 +1,10 @@
-import React from "react";
-import SideMenu from "../SideMenu";
-import * as S from "./styled";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import React from 'react';
+import SideMenu from '../SideMenu';
+import * as S from './styled';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Menu = () => {
   return (
-    <S.Container id="home">
+    <S.Container id='home'>
       <div>
         <S.Title>Global Tech</S.Title>
       </div>
@@ -13,16 +13,16 @@ const Menu = () => {
       </S.Side>
       <div>
         <S.Menu>
-          <AnchorLink href="#home">
+          <AnchorLink href='#home'>
             <S.Lista>Planos</S.Lista>
           </AnchorLink>
-          <AnchorLink href="#servico">
+          <AnchorLink href='#servico'>
             <S.Lista>Serviços</S.Lista>
           </AnchorLink>
-          <AnchorLink href="#promocoes">
+          <AnchorLink href='#promocoes'>
             <S.Lista>Promoções</S.Lista>
           </AnchorLink>
-          <AnchorLink href="#contato">
+          <AnchorLink href='#contato'>
             <S.Lista>Contato</S.Lista>
           </AnchorLink>
         </S.Menu>
